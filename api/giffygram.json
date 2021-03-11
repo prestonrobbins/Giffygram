@@ -40,5 +40,13 @@
     "title": "Enhanced global utilisation"
   }
   ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 2
+      }
+  ],
+
   "messages": []
 }

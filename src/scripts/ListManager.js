@@ -3,7 +3,7 @@ import {entryHTML} from "./HTMLManager.js"
 
 console.log("parseCheck", getUsers());
 export const entryLoopLog = () => {
-    const entryHTMLSelector = document.querySelector(".getEntry")
+    const entryHTMLSelector = document.querySelector(".postList")
     let entryListHolder = ""
         getUsers().then(param => {
             for (const entry of param) {
